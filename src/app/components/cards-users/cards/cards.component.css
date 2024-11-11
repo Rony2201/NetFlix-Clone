@@ -1,0 +1,15 @@
+.card-profile__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-name__profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6px;
+}
+.card-name__profile > p {
+    color: white;
+}

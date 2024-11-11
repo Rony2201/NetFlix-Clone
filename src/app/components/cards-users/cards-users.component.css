@@ -1,0 +1,22 @@
+.users-cards__container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+.users-cards__container > h3 {
+    font-size: 65px;
+    color: white;
+}
+.users-cards__profiles {
+    display: flex;
+    flex-direction: row;
+}
+.users-profile__image {
+    display: flex;
+    flex-direction: row;
+}
+.users-profile__image > app-cards {
+    padding: 40px;
+}

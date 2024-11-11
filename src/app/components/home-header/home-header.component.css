@@ -1,0 +1,39 @@
+.header-menu__container {
+    display: flex;
+    height: 100px;
+    padding-top: 10px;
+    border: solid 1px blue;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-header > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu-header > ul > li {
+    padding-left: 70px;
+}
+
+.menu-header > ul > li > a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+}
+.right-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-profile {
+    padding-left: 20px;
+}

@@ -1,0 +1,27 @@
+/* Estilo do spinner */
+.loading-container {
+    text-align: center;
+    margin-top: 350px;
+  }
+  
+  .spinner {
+    border: 8px solid #f3f3f3; /* Cor do fundo */
+    border-top: 15px solid #af0202; /* Cor do spinner */
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    animation: spin 1.5s linear infinite;
+    margin: 0 auto 15px;
+  }
+  
+  /* Animação do spinner */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  p {
+    font-size: 18px;
+    color: #555;
+  }
+  
