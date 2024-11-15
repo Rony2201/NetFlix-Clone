@@ -20,3 +20,6 @@
 .users-profile__image > app-cards {
     padding: 40px;
 }
+.users-profile__image > app-cards:hover {
+    transform: scale(0.9);
+}

@@ -1,0 +1,10 @@
+.image-cards__content {
+    padding-top: 20px;
+    display: flex;
+    padding-right: 30px;
+    background-color: rgba(255, 255, 255, 0);
+}
+img {
+    width: 230px;
+    background-color: rgba(255, 255, 255, 0);
+}

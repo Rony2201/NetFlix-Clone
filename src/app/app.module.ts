@@ -9,6 +9,11 @@ import { CardsComponent } from './components/cards-users/cards/cards.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoadingPageComponent } from './pages/loading-page/loading-page.component';
 import { HomeHeaderComponent } from './components/home-header/home-header.component';
+import { NavMainComponent } from './components/nav-main/nav-main.component';
+import {MatIconModule} from '@angular/material/icon';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CardFilmesComponent } from './components/card-filmes/card-filmes.component';
+import { FilmesComponent } from './components/card-filmes/filmes/filmes.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +23,17 @@ import { HomeHeaderComponent } from './components/home-header/home-header.compon
     CardsComponent,
     HomeComponent,
     LoadingPageComponent,
-    HomeHeaderComponent
+    HomeHeaderComponent,
+    NavMainComponent,
+    CardFilmesComponent,
+    FilmesComponent
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
